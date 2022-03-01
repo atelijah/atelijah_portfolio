@@ -1,0 +1,163 @@
+/* MAIN */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Prompt:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&display=swap');
+
+:root{
+    --font1: 'Josefin Slab';
+    --font2: 'Prompt';
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body *{
+    padding: 0;
+    margin: 0;
+    font-family: var(--font2);
+}
+.mkd{
+    background-color: black;
+    color: white;
+}
+#btn-type1{
+    background-color: white;
+    color: black;
+}
+
+#btn-type2{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* NAV */
+
+nav{
+    padding: 5pc;
+    background-color: white;
+    box-shadow: 0 0 0 0;
+}
+nav .nav-wrapper a{
+    color: black;
+}
+nav .nav-wrapper .brand-logo{
+    font-family: var(--font1);
+}
+nav li a{
+    transition: 0.5s;
+}
+nav li a:hover{
+    background: none;
+    letter-spacing: 0.3em;
+    transition: 0.4s;
+    font-size: 115%;
+}
+#navbar-contact{
+    background-color: black;
+    border-radius: 50px;
+    transition: 3s;
+}
+#navbar-contact:hover{
+    border-radius: 35px;
+    letter-spacing: 0.1em;
+    transition: 1s;
+    
+}
+#navbar-contact a{
+    color: white;
+    font-size: 100%;
+
+}
+
+#navbar-contact a:hover{
+    background: none;
+}
+
+
+
+
+/* HEADER */
+
+header{
+    padding-top:10vw;
+}
+
+header #left-side{
+    padding-top: 8pc;
+    padding-left: 15vw;
+}
+
+header #left-side h5 img{
+    width: 28px;
+}
+
+header h1{
+    font-family: var(--font1);
+    font-weight: bold;
+}
+
+header #right-side{
+    padding-left: 10vw;
+}
+
+header #right-side img{
+    width: 70%;
+}
+
+
+.skills{
+    margin: 0;
+    
+}
+
+.skills #row{
+    padding: 0;
+    margin: 0;
+}
+
+#skillGroup-1,#skillGroup-2,#skillGroup-3,#skillGroup-4{
+    height: 10pc;
+    margin: 0;
+    padding: 0;
+}
+#s-desc{
+    padding: 3pc;
+    
+}
+
+#s-desc h4{
+    font-family: var(--font1);
+    font-weight: bold;
+    
+}
+#s-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100%;
+    
+}
+#s-action:hover{
+    cursor: pointer;
+}
+#s-action img{
+    width: 52px;
+    transition: 0.5s;
+}
+#s-action img:hover{
+    width: 50%;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
